@@ -1,0 +1,2 @@
+[Synchronous and Asynchronous Transmission.pdf](../../../resources/c609cb2f5ae84c0f86d6ce9fe53a4110.pdf)
+![image1](../../../resources/c63c3a1954b842e0a5fcdd13faafeb00.png)![image2](../../../resources/09b0f203fb724539af0364203139839e.png)![image3](../../../resources/640cff7ffb294bca9d4dc2f3e0884302.png)![image4](../../../resources/21e638012b0f43a38d20b7624fb64e0f.png)![image5](../../../resources/bc1a72d001d24ebe99ddccbd579c9813.png)

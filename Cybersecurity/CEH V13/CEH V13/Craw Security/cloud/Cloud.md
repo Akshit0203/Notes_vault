@@ -1,0 +1,2 @@
+Provides a virtual platform
+

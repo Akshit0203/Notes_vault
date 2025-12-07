@@ -1,0 +1,3 @@
+[05 Communication Models in IoT.pdf](../../../resources/b6e864543a404d5faf8ed3eea5c10707.pdf)
+![image1](../../../resources/ed36108a7ef343729ec671eed7386017.png)![image2](../../../resources/97c3c5e69d114684b48657ecce8b8512.png)![image3](../../../resources/dc59da2cd62e413a82d77c5e65144c20.png)![image4](../../../resources/dad4d0786dfb4f658ba9e04c3a031e05.png)![image5](../../../resources/997700badc4243c481cb95d80b636437.png)![image6](../../../resources/427b314af55e4ce5b052e22c4c7c2157.png)![image7](../../../resources/bee802fe823f43a3b4f9a90ff61c4638.png)![image8](../../../resources/f1a7d504bde14f749a1751693c5a22d8.png)![image9](../../../resources/66ff1f2c77cd40848f2aa85c752fac57.png)![image10](../../../resources/806587d07d1d4d6996a09261a1c0a9a0.png)
+
