@@ -21,14 +21,6 @@ Continuously updated as I learn more
 
 ---
 
-📥 How to Use
-
-> git clone https://github.com/<your-username>/<repo>.git
-
-Open the folder directly in Obsidian to view and navigate notes efficiently.
-
----
-
 📩 Connect
 
 LinkedIn: https://linkedin.com/in/akshit
