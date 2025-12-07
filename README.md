@@ -23,7 +23,7 @@ All notes are written while practicing real labs, hands-on exercises, CTF-style 
 
 📩 Connect
 
-LinkedIn: https://linkedin.com/in/akshit
+LinkedIn: https://linkedin.com/in/akshit023
 
 ---
 
