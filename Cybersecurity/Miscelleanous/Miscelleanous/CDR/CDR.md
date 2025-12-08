@@ -7,6 +7,3 @@
 
 **How to get CDR data**
 1.  Connection through anyone in telecom of that company
-2.  Give them money
-3.  Use voip to spoof that number and call telecom to give you number
-4.  Or Call from police number

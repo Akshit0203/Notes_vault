@@ -27,6 +27,6 @@ Gun zip rockyou.txt
 
 Aircrack-ng -w wifi.txt ad-01.cap
 
-See fluxion in book craw
+fluxion
 wifi
 

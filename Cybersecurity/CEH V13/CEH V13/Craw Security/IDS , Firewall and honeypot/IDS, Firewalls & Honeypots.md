@@ -10,16 +10,16 @@ Wafw00f craw.in
 Ids
 Ips
 
-Firewall has its own dtabase of signatures
-Behaviour based also
+Firewall has its own database of signatures
+Behavior based also
 
 Learn assembly
 scripting
 
 Crypter
-Wapper - buunds malware
+Wrapper - bounds malware
 
-Honeypot - ctach the hacker
+Honeypot - catch the hacker
 Made to enter vulnerable network
 
 Download tool
@@ -31,10 +31,7 @@ Cd pentbox-1.8
 Ls
 Ruby pentbox.rb
 
-3
-
-1
-Ip cinfig
+Ip config
 Paste my ip on chrome
 
 Exit
