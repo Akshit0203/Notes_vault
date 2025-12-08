@@ -1,6 +1,6 @@
 # 📘 Obsidian Notes Vault
 
-This repository contains my personal learning notes created inside Obsidian, covering cybersecurity, networking, programming fundamentals, cloud concepts, and other technical subjects.
+This repository contains my personal learning notes created inside Obsidian, covering cybersecurity, networking, programming, cloud concepts, and other technical subjects.
 
 All notes are written while practicing real labs, hands-on exercises, CTF-style learning, and certification preparation.
 
