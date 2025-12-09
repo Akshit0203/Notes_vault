@@ -4,7 +4,7 @@ many SOC teams use ELK almost as a SIEM solution. 
 
 Elastic Stack is a collection of different open-source components that work together to collect data from any source, store and search it, and visualize it in real time. 
 
-![Shows Elastic Stack components|547x190](https://tryhackme-images.s3.amazonaws.com/user-uploads/5e8dd9a4a45e18443162feab/room-content/f858c0d22d015b663438dae207981532.png)
+![Shows Elastic Stack components|700x243](https://tryhackme-images.s3.amazonaws.com/user-uploads/5e8dd9a4a45e18443162feab/room-content/f858c0d22d015b663438dae207981532.png)
 
 ## 1. Elasticsearch
 The first component, Elasticsearch, is a full-text search and analytics engine for JSON-formatted documents. It stores, analyzes, and correlates data and supports a RESTful API for interacting with it.
