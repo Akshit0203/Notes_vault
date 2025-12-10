@@ -144,3 +144,116 @@ gpg --batch --passphrase "3ast3r-1s-c0M1nG" -d mcskidy_note.txt.gpg
 
 ![|641x324](./attachments/image-2.png)
 
+
+McSkidy’s note contains:
+1. **A corrected wishlist** that needs to replace the compromised one
+2. **An unlock key** for decrypting website ciphertext
+3. **A cryptic warning** about eggs and chocolate
+
+**Navigate to the web directory:**
+
+```
+eddi_knapp@tbfc-web01:~/Documents$ cd /home/socmas/2025/
+```
+
+**Replace with the correct wishlist:**
+```
+cat > wishlist.txt << 'EOF'  
+Hardware security keys (YubiKey or similar)  
+Commercial password manager subscriptions (team seats)  
+Endpoint detection & response (EDR) licenses  
+Secure remote access appliances (jump boxes)  
+Cloud workload scanning credits (container/image scanning)  
+Threat intelligence feed subscription  
+Secure code review / SAST tool access  
+Dedicated secure test lab VM pool  
+Incident response runbook templates and playbooks  
+Electronic safe drive with encrypted backups  
+EOF
+```
+
+After the wishlist is corrected, the glitching should stop and a block of **ciphertext** will be displayed.
+
+![](./attachments/image-3.png)
+
+
+**Decrypt using OpenSSL**
+```
+echo "U2FsdGVkX1/7xkS74RBSFMhpR9Pv0PZrzOVsIzd38sUGzGsDJOB9FbybAWod5HMsa+WIr5HDprvK6aFNYuOGoZ60qI7axX5Qnn1E6D+BPknRgktrZTbMqfJ7wnwCExyU8ek1RxohYBehaDyUWxSNAkARJtjVJEAOA1kEOUOah11iaPGKxrKRV0kVQKpEVnuZMbf0gv1ih421QvmGucErFhnuX+xv63drOTkYy15s9BVCUfKmjMLniusI0tqs236zv4LGbgrcOfgir+P+gWHc2TVW4CYszVXlAZUg07JlLLx1jkF85TIMjQ3B91MQS+btaH2WGWFyakmqYltz6jB5DOSCA6AMQYsqLlx53ORLxy3FfJhZTl9iwlrgEZjJZjDoXBBMdlMCOjKUZfTbt3pnlHWEaGJD7NoTgywFsIw5cz7hkmAMxAIkNn/5hGd/S7mwVp9h6GmBUYDsgHWpRxvnjh0s5kVD8TYjLzVnvaNFS4FXrQCiVIcp1ETqicXRjE4T0MYdnFD8h7og3ZlAFixM3nYpUYgKnqi2o2zJg7fEZ8c=" | openssl enc -d -aes-256-cbc -pbkdf2 -iter 200000 -salt -base64 -pass pass:'91J6X7R4FQ9TQPM9JX2Q9X2Z'
+```
+
+> THM{w3lcome_2_A0c_2025}
+
+![|700x119](./attachments/image-4.png)
+
+Navigate to the secret directory:
+
+```
+cd /home/eddi_knapp/.secret/  
+ls -la
+-rw-------  1 eddi_knapp eddi_knapp 419589 Dec  1 08:32 dir.tar.gz.gpg
+```
+
+## Decrypt the Archive
+
+Use the main challenge flag as the passphrase:
+```
+gpg --batch --passphrase "THM{w3lcome_2_A0c_2025}" -d dir.tar.gz.gpg > dir.tar.gz
+```
+
+**Verify decryption:**
+```
+ls -la dir.tar.gz  
+file dir.tar.gz
+```
+
+## Extract the Archive
+```
+tar -xzf dir.tar.gz
+```
+
+Navigate into the directory:
+```
+cd dir/  
+ls -la
+```
+You’ll find a single PNG image: `sq1.png` (approximately 420KB)
+
+Your terminal can’t open a graphic image directly. So you need a **method to view it from your machine**.
+
+|Option|How|
+|---|---|
+|Download via SCP|scp user@host:/path/file .|
+|Expose via web server|Copy to web-accessible directory|
+
+From your Local Machine, run:
+```
+scp eddi_knapp@<IP Machine>:~/.secret/dir/sq1.png ~/Downloads/
+```
+
+OR 
+
+Start a temporary Python web server in the directory and view through AttackBox browser
+
+```
+eddi_knapp@tbfc-web01:~/.secret/dir$ ls
+sq1.png
+```
+
+
+```
+eddi_knapp@tbfc-web01:~/.secret/dir$ python3 -m http.server 9999
+```
+This serves the **current directory** over HTTP.
+
+On the AttackBox browser, open:
+```
+http://<TARGET_IP>:9999/sq1.png
+```
+
+![|497x255](./attachments/image-5.png)
+
+![|681x341](./attachments/image-6.png)
+
+> now_you_see_me
+
