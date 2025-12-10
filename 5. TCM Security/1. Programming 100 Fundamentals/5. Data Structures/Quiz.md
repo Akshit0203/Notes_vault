@@ -1,11 +1,11 @@
-![5. TCM Security/1. Programming 100 Fundamentals/5. Data Structures/attachments/image.png](5. TCM Security/1. Programming 100 Fundamentals/5. Data Structures/attachments/image.png)
+![image.png|490x409](attachments/image.png)
 
-![5. TCM Security/1. Programming 100 Fundamentals/5. Data Structures/attachments/image-3.png](attachments/5. TCM Security/1. Programming 100 Fundamentals/5. Data Structures/attachments/image-3.png)
+![image-3.png|490x409](attachments/image-3.png)
 
-![5. TCM Security/1. Programming 100 Fundamentals/5. Data Structures/attachments/image-4.png](attachments/5. TCM Security/1. Programming 100 Fundamentals/5. Data Structures/attachments/image-4.png)
+![image-4.png|537x474](attachments/image-4.png)
 
-![5. TCM Security/1. Programming 100 Fundamentals/5. Data Structures/attachments/image-1.png](attachments/5. TCM Security/1. Programming 100 Fundamentals/5. Data Structures/attachments/image-1.png)
+![image-1.png|547x491](attachments/image-1.png)
 
-![5. TCM Security/1. Programming 100 Fundamentals/5. Data Structures/attachments/image-2.png](attachments/5. TCM Security/1. Programming 100 Fundamentals/5. Data Structures/attachments/image-2.png)
+![image-2.png|539x459](attachments/image-2.png)
 
 
