@@ -3,9 +3,7 @@
 
 ![image1](../../attachments/857d6b69ceec423a921ea19fbe20ea64.png)
 
-![image2](../../attachments/d599f246099f45c8877dbe262cfb5f1c.png)
-
-```
+```run-java
 public class Main {
     public static void main(String[] args){
         int age = 16;
@@ -18,8 +16,6 @@ public class Main {
     }
 }
 
-
-not adult
 ```
 
 
@@ -66,10 +62,22 @@ B is largest of 2
 
 # Print if number is odd or even
 
+```run-java
+import java.util.*;
 
-![image7](../../attachments/8a566a8a041d49fe9e645488472decda.png)
+public class Main{
+    public static void main(String args[]){
+        Scanner sc = new Scanner(System.in);
+        int number = sc.nextInt();
 
-![image8](../../attachments/fd374527bf8f4746b26fcc96401448ce.png)
+        if (number % 2 == 0) {
+            System.out.println("number is even");
+        } else {
+            System.out.println("number is odd");
+        }
+    }
+}
+```
 
 # Else if 
 
@@ -78,27 +86,71 @@ Only if the first 'if' is false then 'else if' will be checked
 
 ![image9](../../attachments/7aeaeb80f71747349b4ec40db05db6dc.png)
 
-![image10](../../attachments/c5840a5e190b47289cbb2d3c55b441c3.png)
-
-![image11](../../attachments/f89e7a25eb834b84833f90d9b1902761.png)
-
-![image12](../../attachments/4318f63d254b4dfea118776f5550a3f0.png)
-
-![image13](../../attachments/cc1575b1d6a54dedb15aa1d595b3df77.png)
+```run-java
+import java.util.Scanner;
+public class Main{
+    public static void main(String args[]){
+        int age = 13;
+        if (age>18) {
+            System.out.println("adult");
+        }
+        else if (age>=13 && age<18){
+            System.out.println("teenager");
+        }
+        else {
+            System.out.println("child");
+        }
+        }
+    }
+```
 
 # Income Tax Calculator
 
-![image14](../../attachments/f09a1c4f6fe84f65a6853a50cce2d044.png)
+![image15|294x307](../../attachments/6b320070efc447b88c72c5b057879b82.png)
+![image16|337x323](../../attachments/4fb475e4f811433ea0144067d0f76cc8.png)
 
-![image15](../../attachments/6b320070efc447b88c72c5b057879b82.png)
+```
+import java.util.Scanner;
+public class Main{
+    public static void main(String args[]){
+        Scanner sc = new Scanner(System.in);
+        int income = sc.nextInt();
+        if (income < 500000) {
+            System.out.println("income tax is 0");
+        } else if (income >= 500000 && income <= 1000000) {
+            System.out.println("income tax is " + 0.2*income);
+        } else {
+            System.out.println("income tax is " + 0.3*income);
+        }
+        }
+    }
+```
 
-![image16](../../attachments/4fb475e4f811433ea0144067d0f76cc8.png)
+```
+import java.util.Scanner;
+public class Main{
+    public static void main(String args[]){
+        Scanner sc = new Scanner(System.in);
+        int income = sc.nextInt();
+        int tax;
+
+        if (income < 500000) {
+            tax = 0;
+        } else if (income >= 500000 && income <= 1000000) {
+            tax = (int) (income * 0.2);
+        } else {
+            tax = (int) (income * 0.3);
+        }
+        System.out.println("your tax is " + tax);
+        }
+    }
+```
 
 # Print the largest of 3 numbers
 
-![image17](../../attachments/c57110af5d21433a9738d7affe8973d2.png)
+![image17|418x417](../../attachments/c57110af5d21433a9738d7affe8973d2.png)
 
-![image18](../../attachments/305e87cd881f43d2bbf87ead43c03b68.png)
+![image18|424x315](../../attachments/305e87cd881f43d2bbf87ead43c03b68.png)
 
 ![image19](../../attachments/470ca39451004f3fa80e5d9aea6963a3.png)
 
